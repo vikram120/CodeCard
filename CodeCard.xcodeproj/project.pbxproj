@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9878F30B2B9B4ADE00C798FF /* APIMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9878F30A2B9B4ADE00C798FF /* APIMock.swift */; };
+		9878F30D2B9B4AE300C798FF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9878F30C2B9B4AE300C798FF /* Logger.swift */; };
+		9878F30F2B9B4B8000C798FF /* mtg_card_subset.json in Resources */ = {isa = PBXBuildFile; fileRef = 9878F30E2B9B4B8000C798FF /* mtg_card_subset.json */; };
 		98D579582B99DA30003BB9C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D579572B99DA30003BB9C2 /* AppDelegate.swift */; };
 		98D5795A2B99DA30003BB9C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D579592B99DA30003BB9C2 /* SceneDelegate.swift */; };
 		98D5795C2B99DA30003BB9C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D5795B2B99DA30003BB9C2 /* ViewController.swift */; };
 		98D5795F2B99DA30003BB9C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D5795D2B99DA30003BB9C2 /* Main.storyboard */; };
 		98D579612B99DA32003BB9C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D579602B99DA32003BB9C2 /* Assets.xcassets */; };
 		98D579642B99DA32003BB9C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D579622B99DA32003BB9C2 /* LaunchScreen.storyboard */; };
+		98D5796C2B99E8DF003BB9C2 /* ListOfCardsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D5796B2B99E8DF003BB9C2 /* ListOfCardsCVC.swift */; };
+		98D579702B99EB14003BB9C2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D5796F2B99EB14003BB9C2 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9878F30A2B9B4ADE00C798FF /* APIMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIMock.swift; sourceTree = "<group>"; };
+		9878F30C2B9B4AE300C798FF /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		9878F30E2B9B4B8000C798FF /* mtg_card_subset.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mtg_card_subset.json; sourceTree = "<group>"; };
 		98D579542B99DA30003BB9C2 /* CodeCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D579572B99DA30003BB9C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98D579592B99DA30003BB9C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,8 @@
 		98D579602B99DA32003BB9C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98D579632B99DA32003BB9C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98D579652B99DA32003BB9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D5796B2B99E8DF003BB9C2 /* ListOfCardsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCardsCVC.swift; sourceTree = "<group>"; };
+		98D5796F2B99EB14003BB9C2 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,7 @@
 		98D5794B2B99DA30003BB9C2 = {
 			isa = PBXGroup;
 			children = (
+				9878F30E2B9B4B8000C798FF /* mtg_card_subset.json */,
 				98D579562B99DA30003BB9C2 /* CodeCard */,
 				98D579552B99DA30003BB9C2 /* Products */,
 			);
@@ -57,8 +68,12 @@
 			isa = PBXGroup;
 			children = (
 				98D579572B99DA30003BB9C2 /* AppDelegate.swift */,
+				9878F30A2B9B4ADE00C798FF /* APIMock.swift */,
 				98D579592B99DA30003BB9C2 /* SceneDelegate.swift */,
+				9878F30C2B9B4AE300C798FF /* Logger.swift */,
 				98D5795B2B99DA30003BB9C2 /* ViewController.swift */,
+				98D5796F2B99EB14003BB9C2 /* Card.swift */,
+				98D5796B2B99E8DF003BB9C2 /* ListOfCardsCVC.swift */,
 				98D5795D2B99DA30003BB9C2 /* Main.storyboard */,
 				98D579602B99DA32003BB9C2 /* Assets.xcassets */,
 				98D579622B99DA32003BB9C2 /* LaunchScreen.storyboard */,
@@ -127,6 +142,7 @@
 			files = (
 				98D579642B99DA32003BB9C2 /* LaunchScreen.storyboard in Resources */,
 				98D579612B99DA32003BB9C2 /* Assets.xcassets in Resources */,
+				9878F30F2B9B4B8000C798FF /* mtg_card_subset.json in Resources */,
 				98D5795F2B99DA30003BB9C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9878F30B2B9B4ADE00C798FF /* APIMock.swift in Sources */,
 				98D5795C2B99DA30003BB9C2 /* ViewController.swift in Sources */,
+				98D5796C2B99E8DF003BB9C2 /* ListOfCardsCVC.swift in Sources */,
+				98D579702B99EB14003BB9C2 /* Card.swift in Sources */,
+				9878F30D2B9B4AE300C798FF /* Logger.swift in Sources */,
 				98D579582B99DA30003BB9C2 /* AppDelegate.swift in Sources */,
 				98D5795A2B99DA30003BB9C2 /* SceneDelegate.swift in Sources */,
 			);
